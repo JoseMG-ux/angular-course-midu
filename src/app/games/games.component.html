@@ -1,0 +1,7 @@
+<p>Lista de juegos de <a>{{ username }}</a></p>
+
+<ul>
+  @for (game of games; track game.id) {
+    <li (click)="fav(game.name)">{{ game.name }}</li>
+  }
+</ul>

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* Estilo usados en toda la aplicación */
+
+/* Que colores puedo renderizar por defecto, estilos por defecto a nivel de navegador */
+/* :root: por encima de <html>, <body> */
+:root {
+  color-scheme: light dark;
+}
+
+h1 {
+  font-family: 'sistem-ui', sans-serif;
+  font-size: 2em;
+}
+
